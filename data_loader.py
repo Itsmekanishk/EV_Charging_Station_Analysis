@@ -56,7 +56,7 @@ OVERPASS_HEADERS = {
     "User-Agent": "ChargeMapIntelligence/1.0 (Streamlit EV location-planning prototype)",
     "Accept": "application/json",
 }
-OSM_CACHE_TTL_SECONDS = 60 * 60 * 24  # 24 h
+OSM_CACHE_TTL_SECONDS = 60 * 60 * 24 * 180  # 180 days
 CACHE_DIR = Path(__file__).resolve().parent / ".cache"
 
 POI_WEIGHTS: dict[str, float] = {
@@ -492,7 +492,7 @@ def _fetch_via_requests(query: str) -> list[dict[str, Any]]:
                 url,
                 data={"data": query},
                 headers=OVERPASS_HEADERS,
-                timeout=(8, 60),
+                timeout=(4, 12),
             )
             response.raise_for_status()
             payload = response.json()
@@ -512,13 +512,16 @@ def _cache_path(bbox: tuple[float, float, float, float]) -> Path:
     return CACHE_DIR / f"osm_{key}.json"
 
 
-def _read_cache(bbox: tuple[float, float, float, float]) -> tuple[pd.DataFrame, pd.DataFrame] | None:
+def _read_cache(
+    bbox: tuple[float, float, float, float],
+    ignore_ttl: bool = False,
+) -> tuple[pd.DataFrame, pd.DataFrame] | None:
     path = _cache_path(bbox)
     if not path.exists():
         return None
     try:
         payload = json.loads(path.read_text())
-        if time.time() - payload.get("fetched_unix", 0) > OSM_CACHE_TTL_SECONDS:
+        if not ignore_ttl and (time.time() - payload.get("fetched_unix", 0) > OSM_CACHE_TTL_SECONDS):
             return None
         pois = pd.DataFrame(payload.get("pois", []))
         roads = pd.DataFrame(payload.get("roads", []))
@@ -547,7 +550,7 @@ def _write_cache(bbox: tuple[float, float, float, float], pois: pd.DataFrame, ro
 
 def fetch_osm_features(
     bbox: tuple[float, float, float, float] = AUSTIN_BBOX,
-    timeout: int = 45,
+    timeout: int = 15,
     use_cache: bool = True,
 ) -> tuple[pd.DataFrame, pd.DataFrame, str]:
     """Fetch POIs and major-road access points, returning (pois, roads, status)."""
@@ -577,6 +580,14 @@ def fetch_osm_features(
         except Exception as exc:  # noqa: BLE001 - network failures must degrade gracefully
             last_error = exc
             continue
+
+    # Fallback to stale cache if network/Overpass fails
+    cached = _read_cache(bbox, ignore_ttl=True)
+    if cached is not None:
+        cached_pois, cached_roads = cached
+        cached_pois["source"] = "OpenStreetMap"
+        cached_roads["source"] = "OpenStreetMap"
+        return cached_pois, cached_roads, "OpenStreetMap (cached fallback)"
 
     return pd.DataFrame(), pd.DataFrame(), f"OSM unavailable ({last_error.__class__.__name__ if last_error else 'unknown error'})"
 
