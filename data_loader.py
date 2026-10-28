@@ -58,6 +58,7 @@ OVERPASS_HEADERS = {
 }
 OSM_CACHE_TTL_SECONDS = 60 * 60 * 24 * 180  # 180 days
 CACHE_DIR = Path(__file__).resolve().parent / ".cache"
+DATASET_DIR = Path(__file__).resolve().parent / "data" / "chargemap_dataset"
 
 POI_WEIGHTS: dict[str, float] = {
     "mall": 3.0,
@@ -612,6 +613,41 @@ def _as_geo(points: pd.DataFrame, id_column: str, id_prefix: str) -> gpd.GeoData
     )
 
 
+def _persist_dataset_snapshot(
+    *,
+    pois: gpd.GeoDataFrame,
+    roads: gpd.GeoDataFrame,
+    ev_stations: gpd.GeoDataFrame,
+    grid: gpd.GeoDataFrame,
+    meta: dict[str, Any],
+) -> dict[str, Any]:
+    """Persist the exact raw inputs used by the model before scoring starts."""
+    DATASET_DIR.mkdir(parents=True, exist_ok=True)
+    frames = {
+        "pois": pois,
+        "roads": roads,
+        "ev_stations": ev_stations,
+        "demographic_grid": grid,
+    }
+    files: dict[str, str] = {}
+    for name, frame in frames.items():
+        path = DATASET_DIR / f"{name}.csv"
+        frame.drop(columns=["geometry"], errors="ignore").to_csv(path, index=False)
+        files[name] = str(path.relative_to(Path(__file__).resolve().parent))
+
+    manifest = {
+        "created_at": _utc_now(),
+        "city": CITY_NAME,
+        "source": meta.get("status", "Unknown"),
+        "requested_source": meta.get("requested_source"),
+        "counts": meta.get("counts", {}),
+        "files": files,
+        "model_input_order": ["pois", "roads", "ev_stations", "demographic_grid"],
+    }
+    (DATASET_DIR / "dataset_manifest.json").write_text(json.dumps(manifest, indent=2))
+    return manifest
+
+
 def load_all_data(
     bbox: tuple[float, float, float, float] = AUSTIN_BBOX,
     source: str = "auto",
@@ -674,6 +710,16 @@ def load_all_data(
         "grid_cells": int(len(grid)),
     }
     meta["category_counts"] = pois["category"].value_counts().to_dict()
+
+    dataset_manifest = _persist_dataset_snapshot(
+        pois=pois,
+        roads=roads,
+        ev_stations=ev_stations,
+        grid=grid,
+        meta=meta,
+    )
+    meta["dataset_dir"] = str(DATASET_DIR)
+    meta["dataset_manifest"] = dataset_manifest
 
     return {
         "pois": pois,

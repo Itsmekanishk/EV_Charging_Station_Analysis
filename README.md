@@ -61,10 +61,12 @@ downloadable CSV.
   labels, demand indices and convex-hull polygons.
 - **Five-criteria MCDA model** using `MinMaxScaler` and user-adjustable weights.
 - **Spatially constrained shortlist** with minimum spacing and a per-district cap.
-- **Interactive Folium maps**: opportunity heat surface, candidate pins with 900 m
+- **Keyless OpenStreetMap maps**: opportunity heat surface, candidate pins with 900 m
   coverage rings, DBSCAN hulls, competitor chargers and raw acquisition layers.
-- **CSV export** of the shortlist.
-- **Responsive dark UI** with a sidebar control panel and four switchable views.
+- **Dataset snapshot before prediction**: raw POIs, roads, chargers and demographic
+  grid are written to `data/chargemap_dataset/` before clustering or scoring.
+- **Teacher-ready Dataset view** with previews and CSV downloads.
+- **Responsive dark UI** with a sidebar control panel and five switchable views.
 
 ---
 
@@ -94,6 +96,8 @@ OpenStreetMap Overpass API
         │  (overpy → requests fallback)
         ▼
 data_loader.py ──────────────► POIs, road access points (cached 24 h)
+        │
+        ├── data/chargemap_dataset/ (persisted before prediction)
         │
         ├── simulated EV chargers (competition)
         ├── simulated demographic grid (population + income)
@@ -128,6 +132,8 @@ hidden tab panels.
 ├── .streamlit/
 │   └── config.toml           # Dark theme and headless server defaults
 ├── .cache/                   # Runtime OSM cache (gitignored)
+├── data/
+│   └── chargemap_dataset/    # Persisted model-input CSVs + manifest
 └── .venv/                    # Local virtual environment (gitignored)
 ```
 
@@ -151,13 +157,14 @@ Run this file with Streamlit. It is responsible for:
 - **Data loading** — `load_all_data()` wrapped in `st.cache_data` (12-hour TTL).
 - **Model orchestration** — calls `cluster_demand_zones()`, `score_grid()` and
   `shortlist_sites()` on every rerun.
-- **Four views**, selected with a single choice control:
+- **Five views**, selected with a single choice control:
   1. **Opportunity map** — heat surface, shortlisted pins, coverage rings and a
      shortlist snapshot rail.
   2. **Demand zones** — DBSCAN hull map, zone ranking table and demand chart.
   3. **Site shortlist** — ranked table, criterion comparison chart, per-candidate
      score bars and CSV download.
-  4. **Method & data** — scoring equation, effective weights, lineage table,
+  4. **Dataset** — persisted raw layers, previews and CSV downloads for review.
+  5. **Method & data** — scoring equation, effective weights, lineage table,
      assumptions and an optional raw-layer map.
 - **Footer and data warnings** — makes the simulated nature of demographics and
   competitors explicit.
@@ -172,6 +179,7 @@ Key constants:
 | `AUSTIN_CENTER` | Downtown reference point |
 | `GRID_STEP_DEG` | Demographic grid spacing, `0.005°` (~550 m) |
 | `CACHE_DIR` | `.cache/` beside the source files |
+| `DATASET_DIR` | `data/chargemap_dataset/` persisted model inputs |
 | `OSM_CACHE_TTL_SECONDS` | 24-hour OSM cache lifetime |
 | `POI_WEIGHTS` | Demand weights: mall 3.0, marketplace 2.4, commercial 1.9, parking 1.0 |
 
@@ -179,7 +187,7 @@ Main functions:
 
 | Function | Purpose |
 | --- | --- |
-| `load_all_data(bbox, source, seed, use_cache)` | Returns a bundle with `pois`, `roads`, `ev_stations`, `grid`, `study_area` and `meta` |
+| `load_all_data(bbox, source, seed, use_cache)` | Persists the raw model inputs, then returns a bundle with `pois`, `roads`, `ev_stations`, `grid`, `study_area` and `meta` |
 | `fetch_osm_features(bbox, timeout, use_cache)` | Fetches POIs + major-road points; tries cache, then `overpy`, then `requests`, then mirrors |
 | `generate_mock_pois()` | Deterministic commercial POIs around Austin districts |
 | `generate_mock_roads()` | Densified points along major arterials |

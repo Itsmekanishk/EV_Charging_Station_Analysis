@@ -1,0 +1,609 @@
+road_id,name,category,lat,lon,source
+RD-0000,Interstate 35,major_road,30.18,-97.737,Simulated
+RD-0001,Interstate 35,major_road,30.182609,-97.736913,Simulated
+RD-0002,Interstate 35,major_road,30.185217,-97.736826,Simulated
+RD-0003,Interstate 35,major_road,30.187826,-97.736739,Simulated
+RD-0004,Interstate 35,major_road,30.190435,-97.736652,Simulated
+RD-0005,Interstate 35,major_road,30.193043,-97.736565,Simulated
+RD-0006,Interstate 35,major_road,30.195652,-97.736478,Simulated
+RD-0007,Interstate 35,major_road,30.198261,-97.736391,Simulated
+RD-0008,Interstate 35,major_road,30.20087,-97.736304,Simulated
+RD-0009,Interstate 35,major_road,30.203478,-97.736217,Simulated
+RD-0010,Interstate 35,major_road,30.206087,-97.73613,Simulated
+RD-0011,Interstate 35,major_road,30.208696,-97.736043,Simulated
+RD-0012,Interstate 35,major_road,30.211304,-97.735957,Simulated
+RD-0013,Interstate 35,major_road,30.213913,-97.73587,Simulated
+RD-0014,Interstate 35,major_road,30.216522,-97.735783,Simulated
+RD-0015,Interstate 35,major_road,30.21913,-97.735696,Simulated
+RD-0016,Interstate 35,major_road,30.221739,-97.735609,Simulated
+RD-0017,Interstate 35,major_road,30.224348,-97.735522,Simulated
+RD-0018,Interstate 35,major_road,30.226957,-97.735435,Simulated
+RD-0019,Interstate 35,major_road,30.229565,-97.735348,Simulated
+RD-0020,Interstate 35,major_road,30.232174,-97.735261,Simulated
+RD-0021,Interstate 35,major_road,30.234783,-97.735174,Simulated
+RD-0022,Interstate 35,major_road,30.237391,-97.735087,Simulated
+RD-0023,Interstate 35,major_road,30.24,-97.735,Simulated
+RD-0024,Interstate 35,major_road,30.24,-97.735,Simulated
+RD-0025,Interstate 35,major_road,30.242609,-97.73487,Simulated
+RD-0026,Interstate 35,major_road,30.245217,-97.734739,Simulated
+RD-0027,Interstate 35,major_road,30.247826,-97.734609,Simulated
+RD-0028,Interstate 35,major_road,30.250435,-97.734478,Simulated
+RD-0029,Interstate 35,major_road,30.253043,-97.734348,Simulated
+RD-0030,Interstate 35,major_road,30.255652,-97.734217,Simulated
+RD-0031,Interstate 35,major_road,30.258261,-97.734087,Simulated
+RD-0032,Interstate 35,major_road,30.26087,-97.733957,Simulated
+RD-0033,Interstate 35,major_road,30.263478,-97.733826,Simulated
+RD-0034,Interstate 35,major_road,30.266087,-97.733696,Simulated
+RD-0035,Interstate 35,major_road,30.268696,-97.733565,Simulated
+RD-0036,Interstate 35,major_road,30.271304,-97.733435,Simulated
+RD-0037,Interstate 35,major_road,30.273913,-97.733304,Simulated
+RD-0038,Interstate 35,major_road,30.276522,-97.733174,Simulated
+RD-0039,Interstate 35,major_road,30.27913,-97.733043,Simulated
+RD-0040,Interstate 35,major_road,30.281739,-97.732913,Simulated
+RD-0041,Interstate 35,major_road,30.284348,-97.732783,Simulated
+RD-0042,Interstate 35,major_road,30.286957,-97.732652,Simulated
+RD-0043,Interstate 35,major_road,30.289565,-97.732522,Simulated
+RD-0044,Interstate 35,major_road,30.292174,-97.732391,Simulated
+RD-0045,Interstate 35,major_road,30.294783,-97.732261,Simulated
+RD-0046,Interstate 35,major_road,30.297391,-97.73213,Simulated
+RD-0047,Interstate 35,major_road,30.3,-97.732,Simulated
+RD-0048,Interstate 35,major_road,30.3,-97.732,Simulated
+RD-0049,Interstate 35,major_road,30.302581,-97.731839,Simulated
+RD-0050,Interstate 35,major_road,30.305161,-97.731677,Simulated
+RD-0051,Interstate 35,major_road,30.307742,-97.731516,Simulated
+RD-0052,Interstate 35,major_road,30.310323,-97.731355,Simulated
+RD-0053,Interstate 35,major_road,30.312903,-97.731194,Simulated
+RD-0054,Interstate 35,major_road,30.315484,-97.731032,Simulated
+RD-0055,Interstate 35,major_road,30.318065,-97.730871,Simulated
+RD-0056,Interstate 35,major_road,30.320645,-97.73071,Simulated
+RD-0057,Interstate 35,major_road,30.323226,-97.730548,Simulated
+RD-0058,Interstate 35,major_road,30.325806,-97.730387,Simulated
+RD-0059,Interstate 35,major_road,30.328387,-97.730226,Simulated
+RD-0060,Interstate 35,major_road,30.330968,-97.730065,Simulated
+RD-0061,Interstate 35,major_road,30.333548,-97.729903,Simulated
+RD-0062,Interstate 35,major_road,30.336129,-97.729742,Simulated
+RD-0063,Interstate 35,major_road,30.33871,-97.729581,Simulated
+RD-0064,Interstate 35,major_road,30.34129,-97.729419,Simulated
+RD-0065,Interstate 35,major_road,30.343871,-97.729258,Simulated
+RD-0066,Interstate 35,major_road,30.346452,-97.729097,Simulated
+RD-0067,Interstate 35,major_road,30.349032,-97.728935,Simulated
+RD-0068,Interstate 35,major_road,30.351613,-97.728774,Simulated
+RD-0069,Interstate 35,major_road,30.354194,-97.728613,Simulated
+RD-0070,Interstate 35,major_road,30.356774,-97.728452,Simulated
+RD-0071,Interstate 35,major_road,30.359355,-97.72829,Simulated
+RD-0072,Interstate 35,major_road,30.361935,-97.728129,Simulated
+RD-0073,Interstate 35,major_road,30.364516,-97.727968,Simulated
+RD-0074,Interstate 35,major_road,30.367097,-97.727806,Simulated
+RD-0075,Interstate 35,major_road,30.369677,-97.727645,Simulated
+RD-0076,Interstate 35,major_road,30.372258,-97.727484,Simulated
+RD-0077,Interstate 35,major_road,30.374839,-97.727323,Simulated
+RD-0078,Interstate 35,major_road,30.377419,-97.727161,Simulated
+RD-0079,Interstate 35,major_road,30.38,-97.727,Simulated
+RD-0080,MoPac Expressway,major_road,30.18,-97.786,Simulated
+RD-0081,MoPac Expressway,major_road,30.182609,-97.785696,Simulated
+RD-0082,MoPac Expressway,major_road,30.185217,-97.785391,Simulated
+RD-0083,MoPac Expressway,major_road,30.187826,-97.785087,Simulated
+RD-0084,MoPac Expressway,major_road,30.190435,-97.784783,Simulated
+RD-0085,MoPac Expressway,major_road,30.193043,-97.784478,Simulated
+RD-0086,MoPac Expressway,major_road,30.195652,-97.784174,Simulated
+RD-0087,MoPac Expressway,major_road,30.198261,-97.78387,Simulated
+RD-0088,MoPac Expressway,major_road,30.20087,-97.783565,Simulated
+RD-0089,MoPac Expressway,major_road,30.203478,-97.783261,Simulated
+RD-0090,MoPac Expressway,major_road,30.206087,-97.782957,Simulated
+RD-0091,MoPac Expressway,major_road,30.208696,-97.782652,Simulated
+RD-0092,MoPac Expressway,major_road,30.211304,-97.782348,Simulated
+RD-0093,MoPac Expressway,major_road,30.213913,-97.782043,Simulated
+RD-0094,MoPac Expressway,major_road,30.216522,-97.781739,Simulated
+RD-0095,MoPac Expressway,major_road,30.21913,-97.781435,Simulated
+RD-0096,MoPac Expressway,major_road,30.221739,-97.78113,Simulated
+RD-0097,MoPac Expressway,major_road,30.224348,-97.780826,Simulated
+RD-0098,MoPac Expressway,major_road,30.226957,-97.780522,Simulated
+RD-0099,MoPac Expressway,major_road,30.229565,-97.780217,Simulated
+RD-0100,MoPac Expressway,major_road,30.232174,-97.779913,Simulated
+RD-0101,MoPac Expressway,major_road,30.234783,-97.779609,Simulated
+RD-0102,MoPac Expressway,major_road,30.237391,-97.779304,Simulated
+RD-0103,MoPac Expressway,major_road,30.24,-97.779,Simulated
+RD-0104,MoPac Expressway,major_road,30.24,-97.779,Simulated
+RD-0105,MoPac Expressway,major_road,30.242609,-97.778696,Simulated
+RD-0106,MoPac Expressway,major_road,30.245217,-97.778391,Simulated
+RD-0107,MoPac Expressway,major_road,30.247826,-97.778087,Simulated
+RD-0108,MoPac Expressway,major_road,30.250435,-97.777783,Simulated
+RD-0109,MoPac Expressway,major_road,30.253043,-97.777478,Simulated
+RD-0110,MoPac Expressway,major_road,30.255652,-97.777174,Simulated
+RD-0111,MoPac Expressway,major_road,30.258261,-97.77687,Simulated
+RD-0112,MoPac Expressway,major_road,30.26087,-97.776565,Simulated
+RD-0113,MoPac Expressway,major_road,30.263478,-97.776261,Simulated
+RD-0114,MoPac Expressway,major_road,30.266087,-97.775957,Simulated
+RD-0115,MoPac Expressway,major_road,30.268696,-97.775652,Simulated
+RD-0116,MoPac Expressway,major_road,30.271304,-97.775348,Simulated
+RD-0117,MoPac Expressway,major_road,30.273913,-97.775043,Simulated
+RD-0118,MoPac Expressway,major_road,30.276522,-97.774739,Simulated
+RD-0119,MoPac Expressway,major_road,30.27913,-97.774435,Simulated
+RD-0120,MoPac Expressway,major_road,30.281739,-97.77413,Simulated
+RD-0121,MoPac Expressway,major_road,30.284348,-97.773826,Simulated
+RD-0122,MoPac Expressway,major_road,30.286957,-97.773522,Simulated
+RD-0123,MoPac Expressway,major_road,30.289565,-97.773217,Simulated
+RD-0124,MoPac Expressway,major_road,30.292174,-97.772913,Simulated
+RD-0125,MoPac Expressway,major_road,30.294783,-97.772609,Simulated
+RD-0126,MoPac Expressway,major_road,30.297391,-97.772304,Simulated
+RD-0127,MoPac Expressway,major_road,30.3,-97.772,Simulated
+RD-0128,MoPac Expressway,major_road,30.3,-97.772,Simulated
+RD-0129,MoPac Expressway,major_road,30.302581,-97.771774,Simulated
+RD-0130,MoPac Expressway,major_road,30.305161,-97.771548,Simulated
+RD-0131,MoPac Expressway,major_road,30.307742,-97.771323,Simulated
+RD-0132,MoPac Expressway,major_road,30.310323,-97.771097,Simulated
+RD-0133,MoPac Expressway,major_road,30.312903,-97.770871,Simulated
+RD-0134,MoPac Expressway,major_road,30.315484,-97.770645,Simulated
+RD-0135,MoPac Expressway,major_road,30.318065,-97.770419,Simulated
+RD-0136,MoPac Expressway,major_road,30.320645,-97.770194,Simulated
+RD-0137,MoPac Expressway,major_road,30.323226,-97.769968,Simulated
+RD-0138,MoPac Expressway,major_road,30.325806,-97.769742,Simulated
+RD-0139,MoPac Expressway,major_road,30.328387,-97.769516,Simulated
+RD-0140,MoPac Expressway,major_road,30.330968,-97.76929,Simulated
+RD-0141,MoPac Expressway,major_road,30.333548,-97.769065,Simulated
+RD-0142,MoPac Expressway,major_road,30.336129,-97.768839,Simulated
+RD-0143,MoPac Expressway,major_road,30.33871,-97.768613,Simulated
+RD-0144,MoPac Expressway,major_road,30.34129,-97.768387,Simulated
+RD-0145,MoPac Expressway,major_road,30.343871,-97.768161,Simulated
+RD-0146,MoPac Expressway,major_road,30.346452,-97.767935,Simulated
+RD-0147,MoPac Expressway,major_road,30.349032,-97.76771,Simulated
+RD-0148,MoPac Expressway,major_road,30.351613,-97.767484,Simulated
+RD-0149,MoPac Expressway,major_road,30.354194,-97.767258,Simulated
+RD-0150,MoPac Expressway,major_road,30.356774,-97.767032,Simulated
+RD-0151,MoPac Expressway,major_road,30.359355,-97.766806,Simulated
+RD-0152,MoPac Expressway,major_road,30.361935,-97.766581,Simulated
+RD-0153,MoPac Expressway,major_road,30.364516,-97.766355,Simulated
+RD-0154,MoPac Expressway,major_road,30.367097,-97.766129,Simulated
+RD-0155,MoPac Expressway,major_road,30.369677,-97.765903,Simulated
+RD-0156,MoPac Expressway,major_road,30.372258,-97.765677,Simulated
+RD-0157,MoPac Expressway,major_road,30.374839,-97.765452,Simulated
+RD-0158,MoPac Expressway,major_road,30.377419,-97.765226,Simulated
+RD-0159,MoPac Expressway,major_road,30.38,-97.765,Simulated
+RD-0160,Ben White Blvd (SH-71),major_road,30.222,-97.83,Simulated
+RD-0161,Ben White Blvd (SH-71),major_road,30.22215,-97.827,Simulated
+RD-0162,Ben White Blvd (SH-71),major_road,30.2223,-97.824,Simulated
+RD-0163,Ben White Blvd (SH-71),major_road,30.22245,-97.821,Simulated
+RD-0164,Ben White Blvd (SH-71),major_road,30.2226,-97.818,Simulated
+RD-0165,Ben White Blvd (SH-71),major_road,30.22275,-97.815,Simulated
+RD-0166,Ben White Blvd (SH-71),major_road,30.2229,-97.812,Simulated
+RD-0167,Ben White Blvd (SH-71),major_road,30.22305,-97.809,Simulated
+RD-0168,Ben White Blvd (SH-71),major_road,30.2232,-97.806,Simulated
+RD-0169,Ben White Blvd (SH-71),major_road,30.22335,-97.803,Simulated
+RD-0170,Ben White Blvd (SH-71),major_road,30.2235,-97.8,Simulated
+RD-0171,Ben White Blvd (SH-71),major_road,30.22365,-97.797,Simulated
+RD-0172,Ben White Blvd (SH-71),major_road,30.2238,-97.794,Simulated
+RD-0173,Ben White Blvd (SH-71),major_road,30.22395,-97.791,Simulated
+RD-0174,Ben White Blvd (SH-71),major_road,30.2241,-97.788,Simulated
+RD-0175,Ben White Blvd (SH-71),major_road,30.22425,-97.785,Simulated
+RD-0176,Ben White Blvd (SH-71),major_road,30.2244,-97.782,Simulated
+RD-0177,Ben White Blvd (SH-71),major_road,30.22455,-97.779,Simulated
+RD-0178,Ben White Blvd (SH-71),major_road,30.2247,-97.776,Simulated
+RD-0179,Ben White Blvd (SH-71),major_road,30.22485,-97.773,Simulated
+RD-0180,Ben White Blvd (SH-71),major_road,30.225,-97.77,Simulated
+RD-0181,Ben White Blvd (SH-71),major_road,30.225,-97.77,Simulated
+RD-0182,Ben White Blvd (SH-71),major_road,30.22515,-97.767,Simulated
+RD-0183,Ben White Blvd (SH-71),major_road,30.2253,-97.764,Simulated
+RD-0184,Ben White Blvd (SH-71),major_road,30.22545,-97.761,Simulated
+RD-0185,Ben White Blvd (SH-71),major_road,30.2256,-97.758,Simulated
+RD-0186,Ben White Blvd (SH-71),major_road,30.22575,-97.755,Simulated
+RD-0187,Ben White Blvd (SH-71),major_road,30.2259,-97.752,Simulated
+RD-0188,Ben White Blvd (SH-71),major_road,30.22605,-97.749,Simulated
+RD-0189,Ben White Blvd (SH-71),major_road,30.2262,-97.746,Simulated
+RD-0190,Ben White Blvd (SH-71),major_road,30.22635,-97.743,Simulated
+RD-0191,Ben White Blvd (SH-71),major_road,30.2265,-97.74,Simulated
+RD-0192,Ben White Blvd (SH-71),major_road,30.22665,-97.737,Simulated
+RD-0193,Ben White Blvd (SH-71),major_road,30.2268,-97.734,Simulated
+RD-0194,Ben White Blvd (SH-71),major_road,30.22695,-97.731,Simulated
+RD-0195,Ben White Blvd (SH-71),major_road,30.2271,-97.728,Simulated
+RD-0196,Ben White Blvd (SH-71),major_road,30.22725,-97.725,Simulated
+RD-0197,Ben White Blvd (SH-71),major_road,30.2274,-97.722,Simulated
+RD-0198,Ben White Blvd (SH-71),major_road,30.22755,-97.719,Simulated
+RD-0199,Ben White Blvd (SH-71),major_road,30.2277,-97.716,Simulated
+RD-0200,Ben White Blvd (SH-71),major_road,30.22785,-97.713,Simulated
+RD-0201,Ben White Blvd (SH-71),major_road,30.228,-97.71,Simulated
+RD-0202,Ben White Blvd (SH-71),major_road,30.228,-97.71,Simulated
+RD-0203,Ben White Blvd (SH-71),major_road,30.228118,-97.707059,Simulated
+RD-0204,Ben White Blvd (SH-71),major_road,30.228235,-97.704118,Simulated
+RD-0205,Ben White Blvd (SH-71),major_road,30.228353,-97.701176,Simulated
+RD-0206,Ben White Blvd (SH-71),major_road,30.228471,-97.698235,Simulated
+RD-0207,Ben White Blvd (SH-71),major_road,30.228588,-97.695294,Simulated
+RD-0208,Ben White Blvd (SH-71),major_road,30.228706,-97.692353,Simulated
+RD-0209,Ben White Blvd (SH-71),major_road,30.228824,-97.689412,Simulated
+RD-0210,Ben White Blvd (SH-71),major_road,30.228941,-97.686471,Simulated
+RD-0211,Ben White Blvd (SH-71),major_road,30.229059,-97.683529,Simulated
+RD-0212,Ben White Blvd (SH-71),major_road,30.229176,-97.680588,Simulated
+RD-0213,Ben White Blvd (SH-71),major_road,30.229294,-97.677647,Simulated
+RD-0214,Ben White Blvd (SH-71),major_road,30.229412,-97.674706,Simulated
+RD-0215,Ben White Blvd (SH-71),major_road,30.229529,-97.671765,Simulated
+RD-0216,Ben White Blvd (SH-71),major_road,30.229647,-97.668824,Simulated
+RD-0217,Ben White Blvd (SH-71),major_road,30.229765,-97.665882,Simulated
+RD-0218,Ben White Blvd (SH-71),major_road,30.229882,-97.662941,Simulated
+RD-0219,Ben White Blvd (SH-71),major_road,30.23,-97.66,Simulated
+RD-0220,US-290,major_road,30.318,-97.83,Simulated
+RD-0221,US-290,major_road,30.3182,-97.827,Simulated
+RD-0222,US-290,major_road,30.3184,-97.824,Simulated
+RD-0223,US-290,major_road,30.3186,-97.821,Simulated
+RD-0224,US-290,major_road,30.3188,-97.818,Simulated
+RD-0225,US-290,major_road,30.319,-97.815,Simulated
+RD-0226,US-290,major_road,30.3192,-97.812,Simulated
+RD-0227,US-290,major_road,30.3194,-97.809,Simulated
+RD-0228,US-290,major_road,30.3196,-97.806,Simulated
+RD-0229,US-290,major_road,30.3198,-97.803,Simulated
+RD-0230,US-290,major_road,30.32,-97.8,Simulated
+RD-0231,US-290,major_road,30.3202,-97.797,Simulated
+RD-0232,US-290,major_road,30.3204,-97.794,Simulated
+RD-0233,US-290,major_road,30.3206,-97.791,Simulated
+RD-0234,US-290,major_road,30.3208,-97.788,Simulated
+RD-0235,US-290,major_road,30.321,-97.785,Simulated
+RD-0236,US-290,major_road,30.3212,-97.782,Simulated
+RD-0237,US-290,major_road,30.3214,-97.779,Simulated
+RD-0238,US-290,major_road,30.3216,-97.776,Simulated
+RD-0239,US-290,major_road,30.3218,-97.773,Simulated
+RD-0240,US-290,major_road,30.322,-97.77,Simulated
+RD-0241,US-290,major_road,30.322,-97.77,Simulated
+RD-0242,US-290,major_road,30.322176,-97.767059,Simulated
+RD-0243,US-290,major_road,30.322353,-97.764118,Simulated
+RD-0244,US-290,major_road,30.322529,-97.761176,Simulated
+RD-0245,US-290,major_road,30.322706,-97.758235,Simulated
+RD-0246,US-290,major_road,30.322882,-97.755294,Simulated
+RD-0247,US-290,major_road,30.323059,-97.752353,Simulated
+RD-0248,US-290,major_road,30.323235,-97.749412,Simulated
+RD-0249,US-290,major_road,30.323412,-97.746471,Simulated
+RD-0250,US-290,major_road,30.323588,-97.743529,Simulated
+RD-0251,US-290,major_road,30.323765,-97.740588,Simulated
+RD-0252,US-290,major_road,30.323941,-97.737647,Simulated
+RD-0253,US-290,major_road,30.324118,-97.734706,Simulated
+RD-0254,US-290,major_road,30.324294,-97.731765,Simulated
+RD-0255,US-290,major_road,30.324471,-97.728824,Simulated
+RD-0256,US-290,major_road,30.324647,-97.725882,Simulated
+RD-0257,US-290,major_road,30.324824,-97.722941,Simulated
+RD-0258,US-290,major_road,30.325,-97.72,Simulated
+RD-0259,US-290,major_road,30.325,-97.72,Simulated
+RD-0260,US-290,major_road,30.32505,-97.717,Simulated
+RD-0261,US-290,major_road,30.3251,-97.714,Simulated
+RD-0262,US-290,major_road,30.32515,-97.711,Simulated
+RD-0263,US-290,major_road,30.3252,-97.708,Simulated
+RD-0264,US-290,major_road,30.32525,-97.705,Simulated
+RD-0265,US-290,major_road,30.3253,-97.702,Simulated
+RD-0266,US-290,major_road,30.32535,-97.699,Simulated
+RD-0267,US-290,major_road,30.3254,-97.696,Simulated
+RD-0268,US-290,major_road,30.32545,-97.693,Simulated
+RD-0269,US-290,major_road,30.3255,-97.69,Simulated
+RD-0270,US-290,major_road,30.32555,-97.687,Simulated
+RD-0271,US-290,major_road,30.3256,-97.684,Simulated
+RD-0272,US-290,major_road,30.32565,-97.681,Simulated
+RD-0273,US-290,major_road,30.3257,-97.678,Simulated
+RD-0274,US-290,major_road,30.32575,-97.675,Simulated
+RD-0275,US-290,major_road,30.3258,-97.672,Simulated
+RD-0276,US-290,major_road,30.32585,-97.669,Simulated
+RD-0277,US-290,major_road,30.3259,-97.666,Simulated
+RD-0278,US-290,major_road,30.32595,-97.663,Simulated
+RD-0279,US-290,major_road,30.326,-97.66,Simulated
+RD-0280,Riverside Dr,major_road,30.24,-97.79,Simulated
+RD-0281,Riverside Dr,major_road,30.240267,-97.787,Simulated
+RD-0282,Riverside Dr,major_road,30.240533,-97.784,Simulated
+RD-0283,Riverside Dr,major_road,30.2408,-97.781,Simulated
+RD-0284,Riverside Dr,major_road,30.241067,-97.778,Simulated
+RD-0285,Riverside Dr,major_road,30.241333,-97.775,Simulated
+RD-0286,Riverside Dr,major_road,30.2416,-97.772,Simulated
+RD-0287,Riverside Dr,major_road,30.241867,-97.769,Simulated
+RD-0288,Riverside Dr,major_road,30.242133,-97.766,Simulated
+RD-0289,Riverside Dr,major_road,30.2424,-97.763,Simulated
+RD-0290,Riverside Dr,major_road,30.242667,-97.76,Simulated
+RD-0291,Riverside Dr,major_road,30.242933,-97.757,Simulated
+RD-0292,Riverside Dr,major_road,30.2432,-97.754,Simulated
+RD-0293,Riverside Dr,major_road,30.243467,-97.751,Simulated
+RD-0294,Riverside Dr,major_road,30.243733,-97.748,Simulated
+RD-0295,Riverside Dr,major_road,30.244,-97.745,Simulated
+RD-0296,Riverside Dr,major_road,30.244,-97.745,Simulated
+RD-0297,Riverside Dr,major_road,30.244133,-97.742,Simulated
+RD-0298,Riverside Dr,major_road,30.244267,-97.739,Simulated
+RD-0299,Riverside Dr,major_road,30.2444,-97.736,Simulated
+RD-0300,Riverside Dr,major_road,30.244533,-97.733,Simulated
+RD-0301,Riverside Dr,major_road,30.244667,-97.73,Simulated
+RD-0302,Riverside Dr,major_road,30.2448,-97.727,Simulated
+RD-0303,Riverside Dr,major_road,30.244933,-97.724,Simulated
+RD-0304,Riverside Dr,major_road,30.245067,-97.721,Simulated
+RD-0305,Riverside Dr,major_road,30.2452,-97.718,Simulated
+RD-0306,Riverside Dr,major_road,30.245333,-97.715,Simulated
+RD-0307,Riverside Dr,major_road,30.245467,-97.712,Simulated
+RD-0308,Riverside Dr,major_road,30.2456,-97.709,Simulated
+RD-0309,Riverside Dr,major_road,30.245733,-97.706,Simulated
+RD-0310,Riverside Dr,major_road,30.245867,-97.703,Simulated
+RD-0311,Riverside Dr,major_road,30.246,-97.7,Simulated
+RD-0312,Riverside Dr,major_road,30.246,-97.7,Simulated
+RD-0313,Riverside Dr,major_road,30.246154,-97.696923,Simulated
+RD-0314,Riverside Dr,major_road,30.246308,-97.693846,Simulated
+RD-0315,Riverside Dr,major_road,30.246462,-97.690769,Simulated
+RD-0316,Riverside Dr,major_road,30.246615,-97.687692,Simulated
+RD-0317,Riverside Dr,major_road,30.246769,-97.684615,Simulated
+RD-0318,Riverside Dr,major_road,30.246923,-97.681538,Simulated
+RD-0319,Riverside Dr,major_road,30.247077,-97.678462,Simulated
+RD-0320,Riverside Dr,major_road,30.247231,-97.675385,Simulated
+RD-0321,Riverside Dr,major_road,30.247385,-97.672308,Simulated
+RD-0322,Riverside Dr,major_road,30.247538,-97.669231,Simulated
+RD-0323,Riverside Dr,major_road,30.247692,-97.666154,Simulated
+RD-0324,Riverside Dr,major_road,30.247846,-97.663077,Simulated
+RD-0325,Riverside Dr,major_road,30.248,-97.66,Simulated
+RD-0326,Martin Luther King Blvd,major_road,30.28,-97.83,Simulated
+RD-0327,Martin Luther King Blvd,major_road,30.280118,-97.827059,Simulated
+RD-0328,Martin Luther King Blvd,major_road,30.280235,-97.824118,Simulated
+RD-0329,Martin Luther King Blvd,major_road,30.280353,-97.821176,Simulated
+RD-0330,Martin Luther King Blvd,major_road,30.280471,-97.818235,Simulated
+RD-0331,Martin Luther King Blvd,major_road,30.280588,-97.815294,Simulated
+RD-0332,Martin Luther King Blvd,major_road,30.280706,-97.812353,Simulated
+RD-0333,Martin Luther King Blvd,major_road,30.280824,-97.809412,Simulated
+RD-0334,Martin Luther King Blvd,major_road,30.280941,-97.806471,Simulated
+RD-0335,Martin Luther King Blvd,major_road,30.281059,-97.803529,Simulated
+RD-0336,Martin Luther King Blvd,major_road,30.281176,-97.800588,Simulated
+RD-0337,Martin Luther King Blvd,major_road,30.281294,-97.797647,Simulated
+RD-0338,Martin Luther King Blvd,major_road,30.281412,-97.794706,Simulated
+RD-0339,Martin Luther King Blvd,major_road,30.281529,-97.791765,Simulated
+RD-0340,Martin Luther King Blvd,major_road,30.281647,-97.788824,Simulated
+RD-0341,Martin Luther King Blvd,major_road,30.281765,-97.785882,Simulated
+RD-0342,Martin Luther King Blvd,major_road,30.281882,-97.782941,Simulated
+RD-0343,Martin Luther King Blvd,major_road,30.282,-97.78,Simulated
+RD-0344,Martin Luther King Blvd,major_road,30.282,-97.78,Simulated
+RD-0345,Martin Luther King Blvd,major_road,30.282118,-97.777059,Simulated
+RD-0346,Martin Luther King Blvd,major_road,30.282235,-97.774118,Simulated
+RD-0347,Martin Luther King Blvd,major_road,30.282353,-97.771176,Simulated
+RD-0348,Martin Luther King Blvd,major_road,30.282471,-97.768235,Simulated
+RD-0349,Martin Luther King Blvd,major_road,30.282588,-97.765294,Simulated
+RD-0350,Martin Luther King Blvd,major_road,30.282706,-97.762353,Simulated
+RD-0351,Martin Luther King Blvd,major_road,30.282824,-97.759412,Simulated
+RD-0352,Martin Luther King Blvd,major_road,30.282941,-97.756471,Simulated
+RD-0353,Martin Luther King Blvd,major_road,30.283059,-97.753529,Simulated
+RD-0354,Martin Luther King Blvd,major_road,30.283176,-97.750588,Simulated
+RD-0355,Martin Luther King Blvd,major_road,30.283294,-97.747647,Simulated
+RD-0356,Martin Luther King Blvd,major_road,30.283412,-97.744706,Simulated
+RD-0357,Martin Luther King Blvd,major_road,30.283529,-97.741765,Simulated
+RD-0358,Martin Luther King Blvd,major_road,30.283647,-97.738824,Simulated
+RD-0359,Martin Luther King Blvd,major_road,30.283765,-97.735882,Simulated
+RD-0360,Martin Luther King Blvd,major_road,30.283882,-97.732941,Simulated
+RD-0361,Martin Luther King Blvd,major_road,30.284,-97.73,Simulated
+RD-0362,Martin Luther King Blvd,major_road,30.284,-97.73,Simulated
+RD-0363,Martin Luther King Blvd,major_road,30.284118,-97.727059,Simulated
+RD-0364,Martin Luther King Blvd,major_road,30.284235,-97.724118,Simulated
+RD-0365,Martin Luther King Blvd,major_road,30.284353,-97.721176,Simulated
+RD-0366,Martin Luther King Blvd,major_road,30.284471,-97.718235,Simulated
+RD-0367,Martin Luther King Blvd,major_road,30.284588,-97.715294,Simulated
+RD-0368,Martin Luther King Blvd,major_road,30.284706,-97.712353,Simulated
+RD-0369,Martin Luther King Blvd,major_road,30.284824,-97.709412,Simulated
+RD-0370,Martin Luther King Blvd,major_road,30.284941,-97.706471,Simulated
+RD-0371,Martin Luther King Blvd,major_road,30.285059,-97.703529,Simulated
+RD-0372,Martin Luther King Blvd,major_road,30.285176,-97.700588,Simulated
+RD-0373,Martin Luther King Blvd,major_road,30.285294,-97.697647,Simulated
+RD-0374,Martin Luther King Blvd,major_road,30.285412,-97.694706,Simulated
+RD-0375,Martin Luther King Blvd,major_road,30.285529,-97.691765,Simulated
+RD-0376,Martin Luther King Blvd,major_road,30.285647,-97.688824,Simulated
+RD-0377,Martin Luther King Blvd,major_road,30.285765,-97.685882,Simulated
+RD-0378,Martin Luther King Blvd,major_road,30.285882,-97.682941,Simulated
+RD-0379,Martin Luther King Blvd,major_road,30.286,-97.68,Simulated
+RD-0380,Airport Blvd,major_road,30.18,-97.719,Simulated
+RD-0381,Airport Blvd,major_road,30.182609,-97.71887,Simulated
+RD-0382,Airport Blvd,major_road,30.185217,-97.718739,Simulated
+RD-0383,Airport Blvd,major_road,30.187826,-97.718609,Simulated
+RD-0384,Airport Blvd,major_road,30.190435,-97.718478,Simulated
+RD-0385,Airport Blvd,major_road,30.193043,-97.718348,Simulated
+RD-0386,Airport Blvd,major_road,30.195652,-97.718217,Simulated
+RD-0387,Airport Blvd,major_road,30.198261,-97.718087,Simulated
+RD-0388,Airport Blvd,major_road,30.20087,-97.717957,Simulated
+RD-0389,Airport Blvd,major_road,30.203478,-97.717826,Simulated
+RD-0390,Airport Blvd,major_road,30.206087,-97.717696,Simulated
+RD-0391,Airport Blvd,major_road,30.208696,-97.717565,Simulated
+RD-0392,Airport Blvd,major_road,30.211304,-97.717435,Simulated
+RD-0393,Airport Blvd,major_road,30.213913,-97.717304,Simulated
+RD-0394,Airport Blvd,major_road,30.216522,-97.717174,Simulated
+RD-0395,Airport Blvd,major_road,30.21913,-97.717043,Simulated
+RD-0396,Airport Blvd,major_road,30.221739,-97.716913,Simulated
+RD-0397,Airport Blvd,major_road,30.224348,-97.716783,Simulated
+RD-0398,Airport Blvd,major_road,30.226957,-97.716652,Simulated
+RD-0399,Airport Blvd,major_road,30.229565,-97.716522,Simulated
+RD-0400,Airport Blvd,major_road,30.232174,-97.716391,Simulated
+RD-0401,Airport Blvd,major_road,30.234783,-97.716261,Simulated
+RD-0402,Airport Blvd,major_road,30.237391,-97.71613,Simulated
+RD-0403,Airport Blvd,major_road,30.24,-97.716,Simulated
+RD-0404,Airport Blvd,major_road,30.24,-97.716,Simulated
+RD-0405,Airport Blvd,major_road,30.242609,-97.71587,Simulated
+RD-0406,Airport Blvd,major_road,30.245217,-97.715739,Simulated
+RD-0407,Airport Blvd,major_road,30.247826,-97.715609,Simulated
+RD-0408,Airport Blvd,major_road,30.250435,-97.715478,Simulated
+RD-0409,Airport Blvd,major_road,30.253043,-97.715348,Simulated
+RD-0410,Airport Blvd,major_road,30.255652,-97.715217,Simulated
+RD-0411,Airport Blvd,major_road,30.258261,-97.715087,Simulated
+RD-0412,Airport Blvd,major_road,30.26087,-97.714957,Simulated
+RD-0413,Airport Blvd,major_road,30.263478,-97.714826,Simulated
+RD-0414,Airport Blvd,major_road,30.266087,-97.714696,Simulated
+RD-0415,Airport Blvd,major_road,30.268696,-97.714565,Simulated
+RD-0416,Airport Blvd,major_road,30.271304,-97.714435,Simulated
+RD-0417,Airport Blvd,major_road,30.273913,-97.714304,Simulated
+RD-0418,Airport Blvd,major_road,30.276522,-97.714174,Simulated
+RD-0419,Airport Blvd,major_road,30.27913,-97.714043,Simulated
+RD-0420,Airport Blvd,major_road,30.281739,-97.713913,Simulated
+RD-0421,Airport Blvd,major_road,30.284348,-97.713783,Simulated
+RD-0422,Airport Blvd,major_road,30.286957,-97.713652,Simulated
+RD-0423,Airport Blvd,major_road,30.289565,-97.713522,Simulated
+RD-0424,Airport Blvd,major_road,30.292174,-97.713391,Simulated
+RD-0425,Airport Blvd,major_road,30.294783,-97.713261,Simulated
+RD-0426,Airport Blvd,major_road,30.297391,-97.71313,Simulated
+RD-0427,Airport Blvd,major_road,30.3,-97.713,Simulated
+RD-0428,Airport Blvd,major_road,30.3,-97.713,Simulated
+RD-0429,Airport Blvd,major_road,30.302609,-97.712826,Simulated
+RD-0430,Airport Blvd,major_road,30.305217,-97.712652,Simulated
+RD-0431,Airport Blvd,major_road,30.307826,-97.712478,Simulated
+RD-0432,Airport Blvd,major_road,30.310435,-97.712304,Simulated
+RD-0433,Airport Blvd,major_road,30.313043,-97.71213,Simulated
+RD-0434,Airport Blvd,major_road,30.315652,-97.711957,Simulated
+RD-0435,Airport Blvd,major_road,30.318261,-97.711783,Simulated
+RD-0436,Airport Blvd,major_road,30.32087,-97.711609,Simulated
+RD-0437,Airport Blvd,major_road,30.323478,-97.711435,Simulated
+RD-0438,Airport Blvd,major_road,30.326087,-97.711261,Simulated
+RD-0439,Airport Blvd,major_road,30.328696,-97.711087,Simulated
+RD-0440,Airport Blvd,major_road,30.331304,-97.710913,Simulated
+RD-0441,Airport Blvd,major_road,30.333913,-97.710739,Simulated
+RD-0442,Airport Blvd,major_road,30.336522,-97.710565,Simulated
+RD-0443,Airport Blvd,major_road,30.33913,-97.710391,Simulated
+RD-0444,Airport Blvd,major_road,30.341739,-97.710217,Simulated
+RD-0445,Airport Blvd,major_road,30.344348,-97.710043,Simulated
+RD-0446,Airport Blvd,major_road,30.346957,-97.70987,Simulated
+RD-0447,Airport Blvd,major_road,30.349565,-97.709696,Simulated
+RD-0448,Airport Blvd,major_road,30.352174,-97.709522,Simulated
+RD-0449,Airport Blvd,major_road,30.354783,-97.709348,Simulated
+RD-0450,Airport Blvd,major_road,30.357391,-97.709174,Simulated
+RD-0451,Airport Blvd,major_road,30.36,-97.709,Simulated
+RD-0452,Lamar Blvd,major_road,30.18,-97.761,Simulated
+RD-0453,Lamar Blvd,major_road,30.182609,-97.760739,Simulated
+RD-0454,Lamar Blvd,major_road,30.185217,-97.760478,Simulated
+RD-0455,Lamar Blvd,major_road,30.187826,-97.760217,Simulated
+RD-0456,Lamar Blvd,major_road,30.190435,-97.759957,Simulated
+RD-0457,Lamar Blvd,major_road,30.193043,-97.759696,Simulated
+RD-0458,Lamar Blvd,major_road,30.195652,-97.759435,Simulated
+RD-0459,Lamar Blvd,major_road,30.198261,-97.759174,Simulated
+RD-0460,Lamar Blvd,major_road,30.20087,-97.758913,Simulated
+RD-0461,Lamar Blvd,major_road,30.203478,-97.758652,Simulated
+RD-0462,Lamar Blvd,major_road,30.206087,-97.758391,Simulated
+RD-0463,Lamar Blvd,major_road,30.208696,-97.75813,Simulated
+RD-0464,Lamar Blvd,major_road,30.211304,-97.75787,Simulated
+RD-0465,Lamar Blvd,major_road,30.213913,-97.757609,Simulated
+RD-0466,Lamar Blvd,major_road,30.216522,-97.757348,Simulated
+RD-0467,Lamar Blvd,major_road,30.21913,-97.757087,Simulated
+RD-0468,Lamar Blvd,major_road,30.221739,-97.756826,Simulated
+RD-0469,Lamar Blvd,major_road,30.224348,-97.756565,Simulated
+RD-0470,Lamar Blvd,major_road,30.226957,-97.756304,Simulated
+RD-0471,Lamar Blvd,major_road,30.229565,-97.756043,Simulated
+RD-0472,Lamar Blvd,major_road,30.232174,-97.755783,Simulated
+RD-0473,Lamar Blvd,major_road,30.234783,-97.755522,Simulated
+RD-0474,Lamar Blvd,major_road,30.237391,-97.755261,Simulated
+RD-0475,Lamar Blvd,major_road,30.24,-97.755,Simulated
+RD-0476,Lamar Blvd,major_road,30.24,-97.755,Simulated
+RD-0477,Lamar Blvd,major_road,30.242609,-97.754696,Simulated
+RD-0478,Lamar Blvd,major_road,30.245217,-97.754391,Simulated
+RD-0479,Lamar Blvd,major_road,30.247826,-97.754087,Simulated
+RD-0480,Lamar Blvd,major_road,30.250435,-97.753783,Simulated
+RD-0481,Lamar Blvd,major_road,30.253043,-97.753478,Simulated
+RD-0482,Lamar Blvd,major_road,30.255652,-97.753174,Simulated
+RD-0483,Lamar Blvd,major_road,30.258261,-97.75287,Simulated
+RD-0484,Lamar Blvd,major_road,30.26087,-97.752565,Simulated
+RD-0485,Lamar Blvd,major_road,30.263478,-97.752261,Simulated
+RD-0486,Lamar Blvd,major_road,30.266087,-97.751957,Simulated
+RD-0487,Lamar Blvd,major_road,30.268696,-97.751652,Simulated
+RD-0488,Lamar Blvd,major_road,30.271304,-97.751348,Simulated
+RD-0489,Lamar Blvd,major_road,30.273913,-97.751043,Simulated
+RD-0490,Lamar Blvd,major_road,30.276522,-97.750739,Simulated
+RD-0491,Lamar Blvd,major_road,30.27913,-97.750435,Simulated
+RD-0492,Lamar Blvd,major_road,30.281739,-97.75013,Simulated
+RD-0493,Lamar Blvd,major_road,30.284348,-97.749826,Simulated
+RD-0494,Lamar Blvd,major_road,30.286957,-97.749522,Simulated
+RD-0495,Lamar Blvd,major_road,30.289565,-97.749217,Simulated
+RD-0496,Lamar Blvd,major_road,30.292174,-97.748913,Simulated
+RD-0497,Lamar Blvd,major_road,30.294783,-97.748609,Simulated
+RD-0498,Lamar Blvd,major_road,30.297391,-97.748304,Simulated
+RD-0499,Lamar Blvd,major_road,30.3,-97.748,Simulated
+RD-0500,Lamar Blvd,major_road,30.3,-97.748,Simulated
+RD-0501,Lamar Blvd,major_road,30.302609,-97.747652,Simulated
+RD-0502,Lamar Blvd,major_road,30.305217,-97.747304,Simulated
+RD-0503,Lamar Blvd,major_road,30.307826,-97.746957,Simulated
+RD-0504,Lamar Blvd,major_road,30.310435,-97.746609,Simulated
+RD-0505,Lamar Blvd,major_road,30.313043,-97.746261,Simulated
+RD-0506,Lamar Blvd,major_road,30.315652,-97.745913,Simulated
+RD-0507,Lamar Blvd,major_road,30.318261,-97.745565,Simulated
+RD-0508,Lamar Blvd,major_road,30.32087,-97.745217,Simulated
+RD-0509,Lamar Blvd,major_road,30.323478,-97.74487,Simulated
+RD-0510,Lamar Blvd,major_road,30.326087,-97.744522,Simulated
+RD-0511,Lamar Blvd,major_road,30.328696,-97.744174,Simulated
+RD-0512,Lamar Blvd,major_road,30.331304,-97.743826,Simulated
+RD-0513,Lamar Blvd,major_road,30.333913,-97.743478,Simulated
+RD-0514,Lamar Blvd,major_road,30.336522,-97.74313,Simulated
+RD-0515,Lamar Blvd,major_road,30.33913,-97.742783,Simulated
+RD-0516,Lamar Blvd,major_road,30.341739,-97.742435,Simulated
+RD-0517,Lamar Blvd,major_road,30.344348,-97.742087,Simulated
+RD-0518,Lamar Blvd,major_road,30.346957,-97.741739,Simulated
+RD-0519,Lamar Blvd,major_road,30.349565,-97.741391,Simulated
+RD-0520,Lamar Blvd,major_road,30.352174,-97.741043,Simulated
+RD-0521,Lamar Blvd,major_road,30.354783,-97.740696,Simulated
+RD-0522,Lamar Blvd,major_road,30.357391,-97.740348,Simulated
+RD-0523,Lamar Blvd,major_road,30.36,-97.74,Simulated
+RD-0524,South Congress Ave,major_road,30.18,-97.753,Simulated
+RD-0525,South Congress Ave,major_road,30.182632,-97.752842,Simulated
+RD-0526,South Congress Ave,major_road,30.185263,-97.752684,Simulated
+RD-0527,South Congress Ave,major_road,30.187895,-97.752526,Simulated
+RD-0528,South Congress Ave,major_road,30.190526,-97.752368,Simulated
+RD-0529,South Congress Ave,major_road,30.193158,-97.752211,Simulated
+RD-0530,South Congress Ave,major_road,30.195789,-97.752053,Simulated
+RD-0531,South Congress Ave,major_road,30.198421,-97.751895,Simulated
+RD-0532,South Congress Ave,major_road,30.201053,-97.751737,Simulated
+RD-0533,South Congress Ave,major_road,30.203684,-97.751579,Simulated
+RD-0534,South Congress Ave,major_road,30.206316,-97.751421,Simulated
+RD-0535,South Congress Ave,major_road,30.208947,-97.751263,Simulated
+RD-0536,South Congress Ave,major_road,30.211579,-97.751105,Simulated
+RD-0537,South Congress Ave,major_road,30.214211,-97.750947,Simulated
+RD-0538,South Congress Ave,major_road,30.216842,-97.750789,Simulated
+RD-0539,South Congress Ave,major_road,30.219474,-97.750632,Simulated
+RD-0540,South Congress Ave,major_road,30.222105,-97.750474,Simulated
+RD-0541,South Congress Ave,major_road,30.224737,-97.750316,Simulated
+RD-0542,South Congress Ave,major_road,30.227368,-97.750158,Simulated
+RD-0543,South Congress Ave,major_road,30.23,-97.75,Simulated
+RD-0544,South Congress Ave,major_road,30.23,-97.75,Simulated
+RD-0545,South Congress Ave,major_road,30.2325,-97.749583,Simulated
+RD-0546,South Congress Ave,major_road,30.235,-97.749167,Simulated
+RD-0547,South Congress Ave,major_road,30.2375,-97.74875,Simulated
+RD-0548,South Congress Ave,major_road,30.24,-97.748333,Simulated
+RD-0549,South Congress Ave,major_road,30.2425,-97.747917,Simulated
+RD-0550,South Congress Ave,major_road,30.245,-97.7475,Simulated
+RD-0551,South Congress Ave,major_road,30.2475,-97.747083,Simulated
+RD-0552,South Congress Ave,major_road,30.25,-97.746667,Simulated
+RD-0553,South Congress Ave,major_road,30.2525,-97.74625,Simulated
+RD-0554,South Congress Ave,major_road,30.255,-97.745833,Simulated
+RD-0555,South Congress Ave,major_road,30.2575,-97.745417,Simulated
+RD-0556,South Congress Ave,major_road,30.26,-97.745,Simulated
+RD-0557,South Congress Ave,major_road,30.26,-97.745,Simulated
+RD-0558,South Congress Ave,major_road,30.2625,-97.744625,Simulated
+RD-0559,South Congress Ave,major_road,30.265,-97.74425,Simulated
+RD-0560,South Congress Ave,major_road,30.2675,-97.743875,Simulated
+RD-0561,South Congress Ave,major_road,30.27,-97.7435,Simulated
+RD-0562,South Congress Ave,major_road,30.2725,-97.743125,Simulated
+RD-0563,South Congress Ave,major_road,30.275,-97.74275,Simulated
+RD-0564,South Congress Ave,major_road,30.2775,-97.742375,Simulated
+RD-0565,South Congress Ave,major_road,30.28,-97.742,Simulated
+RD-0566,Cesar Chavez St,major_road,30.248,-97.79,Simulated
+RD-0567,Cesar Chavez St,major_road,30.248231,-97.786923,Simulated
+RD-0568,Cesar Chavez St,major_road,30.248462,-97.783846,Simulated
+RD-0569,Cesar Chavez St,major_road,30.248692,-97.780769,Simulated
+RD-0570,Cesar Chavez St,major_road,30.248923,-97.777692,Simulated
+RD-0571,Cesar Chavez St,major_road,30.249154,-97.774615,Simulated
+RD-0572,Cesar Chavez St,major_road,30.249385,-97.771538,Simulated
+RD-0573,Cesar Chavez St,major_road,30.249615,-97.768462,Simulated
+RD-0574,Cesar Chavez St,major_road,30.249846,-97.765385,Simulated
+RD-0575,Cesar Chavez St,major_road,30.250077,-97.762308,Simulated
+RD-0576,Cesar Chavez St,major_road,30.250308,-97.759231,Simulated
+RD-0577,Cesar Chavez St,major_road,30.250538,-97.756154,Simulated
+RD-0578,Cesar Chavez St,major_road,30.250769,-97.753077,Simulated
+RD-0579,Cesar Chavez St,major_road,30.251,-97.75,Simulated
+RD-0580,Cesar Chavez St,major_road,30.251,-97.75,Simulated
+RD-0581,Cesar Chavez St,major_road,30.251231,-97.746923,Simulated
+RD-0582,Cesar Chavez St,major_road,30.251462,-97.743846,Simulated
+RD-0583,Cesar Chavez St,major_road,30.251692,-97.740769,Simulated
+RD-0584,Cesar Chavez St,major_road,30.251923,-97.737692,Simulated
+RD-0585,Cesar Chavez St,major_road,30.252154,-97.734615,Simulated
+RD-0586,Cesar Chavez St,major_road,30.252385,-97.731538,Simulated
+RD-0587,Cesar Chavez St,major_road,30.252615,-97.728462,Simulated
+RD-0588,Cesar Chavez St,major_road,30.252846,-97.725385,Simulated
+RD-0589,Cesar Chavez St,major_road,30.253077,-97.722308,Simulated
+RD-0590,Cesar Chavez St,major_road,30.253308,-97.719231,Simulated
+RD-0591,Cesar Chavez St,major_road,30.253538,-97.716154,Simulated
+RD-0592,Cesar Chavez St,major_road,30.253769,-97.713077,Simulated
+RD-0593,Cesar Chavez St,major_road,30.254,-97.71,Simulated
+RD-0594,Cesar Chavez St,major_road,30.254,-97.71,Simulated
+RD-0595,Cesar Chavez St,major_road,30.254154,-97.706923,Simulated
+RD-0596,Cesar Chavez St,major_road,30.254308,-97.703846,Simulated
+RD-0597,Cesar Chavez St,major_road,30.254462,-97.700769,Simulated
+RD-0598,Cesar Chavez St,major_road,30.254615,-97.697692,Simulated
+RD-0599,Cesar Chavez St,major_road,30.254769,-97.694615,Simulated
+RD-0600,Cesar Chavez St,major_road,30.254923,-97.691538,Simulated
+RD-0601,Cesar Chavez St,major_road,30.255077,-97.688462,Simulated
+RD-0602,Cesar Chavez St,major_road,30.255231,-97.685385,Simulated
+RD-0603,Cesar Chavez St,major_road,30.255385,-97.682308,Simulated
+RD-0604,Cesar Chavez St,major_road,30.255538,-97.679231,Simulated
+RD-0605,Cesar Chavez St,major_road,30.255692,-97.676154,Simulated
+RD-0606,Cesar Chavez St,major_road,30.255846,-97.673077,Simulated
+RD-0607,Cesar Chavez St,major_road,30.256,-97.67,Simulated

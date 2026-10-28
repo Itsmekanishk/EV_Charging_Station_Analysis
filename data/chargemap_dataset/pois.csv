@@ -1,0 +1,209 @@
+poi_id,name,category,lat,lon,source
+SIM-0000,Downtown Park & Ride,parking,30.268851,-97.740655,Simulated
+SIM-0001,Downtown Park & Ride,parking,30.264335,-97.742768,Simulated
+SIM-0002,Downtown Park & Ride,parking,30.265323,-97.740814,Simulated
+SIM-0003,Downtown Public Market,marketplace,30.267345,-97.740169,Simulated
+SIM-0004,Downtown Surface Lot,parking,30.268011,-97.745593,Simulated
+SIM-0005,Downtown Retail Plaza,mall,30.26709,-97.743581,Simulated
+SIM-0006,Downtown Public Market,marketplace,30.26686,-97.744214,Simulated
+SIM-0007,Downtown Surface Lot,parking,30.268371,-97.74215,Simulated
+SIM-0008,Downtown Commercial District,commercial_zone,30.271912,-97.744157,Simulated
+SIM-0009,Downtown Park & Ride,parking,30.26541,-97.741498,Simulated
+SIM-0010,East Austin Surface Lot,parking,30.262152,-97.720644,Simulated
+SIM-0011,East Austin Park & Ride,parking,30.265195,-97.72023,Simulated
+SIM-0012,East Austin Shopping Center,mall,30.264257,-97.717931,Simulated
+SIM-0013,East Austin Park & Ride,parking,30.265494,-97.718324,Simulated
+SIM-0014,East Austin Shopping Center,mall,30.265389,-97.722289,Simulated
+SIM-0015,East Austin Business Park,commercial_zone,30.262594,-97.719215,Simulated
+SIM-0016,East Austin Park & Ride,parking,30.262095,-97.715982,Simulated
+SIM-0017,East Austin Galleria,mall,30.264358,-97.716976,Simulated
+SIM-0018,East Austin Retail Corridor,commercial_zone,30.265745,-97.719407,Simulated
+SIM-0019,South Congress Parking Garage,parking,30.248579,-97.753317,Simulated
+SIM-0020,South Congress Parking Garage,parking,30.250094,-97.74963,Simulated
+SIM-0021,South Congress Business Park,commercial_zone,30.24806,-97.749588,Simulated
+SIM-0022,South Congress Surface Lot,parking,30.250005,-97.751721,Simulated
+SIM-0023,South Congress Park & Ride,parking,30.24816,-97.753109,Simulated
+SIM-0024,South Congress Surface Lot,parking,30.249027,-97.74875,Simulated
+SIM-0025,South Congress Commercial District,commercial_zone,30.250464,-97.750256,Simulated
+SIM-0026,South Congress Commercial District,commercial_zone,30.245288,-97.753762,Simulated
+SIM-0027,South Congress Surface Lot,parking,30.246806,-97.748961,Simulated
+SIM-0028,Rainey Street Parking Garage,parking,30.259858,-97.740426,Simulated
+SIM-0029,Rainey Street Business Park,commercial_zone,30.256548,-97.74197,Simulated
+SIM-0030,Rainey Street Farmers Market,marketplace,30.258849,-97.743991,Simulated
+SIM-0031,Rainey Street Commercial District,commercial_zone,30.255693,-97.74326,Simulated
+SIM-0032,Rainey Street Shopping Center,mall,30.255835,-97.738895,Simulated
+SIM-0033,Rainey Street Retail Corridor,commercial_zone,30.256473,-97.742161,Simulated
+SIM-0034,Rainey Street Parking Garage,parking,30.257484,-97.735966,Simulated
+SIM-0035,Rainey Street Parking Garage,parking,30.260219,-97.742591,Simulated
+SIM-0036,Rainey Street Surface Lot,parking,30.254962,-97.740514,Simulated
+SIM-0037,Zilker Retail Corridor,commercial_zone,30.258511,-97.774824,Simulated
+SIM-0038,Zilker Galleria,mall,30.260844,-97.765808,Simulated
+SIM-0039,Zilker Retail Corridor,commercial_zone,30.259912,-97.773573,Simulated
+SIM-0040,Zilker Surface Lot,parking,30.257212,-97.77208,Simulated
+SIM-0041,Zilker Parking Garage,parking,30.25869,-97.768228,Simulated
+SIM-0042,Zilker Park & Ride,parking,30.256722,-97.775354,Simulated
+SIM-0043,Zilker Business Park,commercial_zone,30.258882,-97.766403,Simulated
+SIM-0044,Westlake Parking Garage,parking,30.278402,-97.798081,Simulated
+SIM-0045,Westlake Commercial District,commercial_zone,30.284183,-97.797136,Simulated
+SIM-0046,Westlake Galleria,mall,30.277514,-97.792578,Simulated
+SIM-0047,Westlake Commercial District,commercial_zone,30.27941,-97.796702,Simulated
+SIM-0048,Westlake Park & Ride,parking,30.278499,-97.798187,Simulated
+SIM-0049,Westlake Farmers Market,marketplace,30.282974,-97.794584,Simulated
+SIM-0050,Westlake Market,marketplace,30.280129,-97.791604,Simulated
+SIM-0051,Westlake Business Park,commercial_zone,30.281934,-97.793885,Simulated
+SIM-0052,Westlake Retail Plaza,mall,30.279903,-97.798184,Simulated
+SIM-0053,Tarrytown Park & Ride,parking,30.295792,-97.778467,Simulated
+SIM-0054,Tarrytown Commercial District,commercial_zone,30.289564,-97.780326,Simulated
+SIM-0055,Tarrytown Galleria,mall,30.291132,-97.778013,Simulated
+SIM-0056,Tarrytown Parking Garage,parking,30.295096,-97.777764,Simulated
+SIM-0057,Tarrytown Business Park,commercial_zone,30.28749,-97.778127,Simulated
+SIM-0058,Tarrytown Business Park,commercial_zone,30.290068,-97.778869,Simulated
+SIM-0059,Clarksville Retail Plaza,mall,30.276067,-97.758259,Simulated
+SIM-0060,Clarksville Parking Garage,parking,30.278206,-97.755601,Simulated
+SIM-0061,Clarksville Park & Ride,parking,30.274469,-97.757582,Simulated
+SIM-0062,Clarksville Business Park,commercial_zone,30.276388,-97.759819,Simulated
+SIM-0063,Clarksville Parking Garage,parking,30.281538,-97.75212,Simulated
+SIM-0064,Hyde Park Retail Plaza,mall,30.30178,-97.734536,Simulated
+SIM-0065,Hyde Park Parking Garage,parking,30.307653,-97.734896,Simulated
+SIM-0066,Hyde Park Park & Ride,parking,30.304642,-97.735762,Simulated
+SIM-0067,Hyde Park Market,marketplace,30.309864,-97.734377,Simulated
+SIM-0068,Hyde Park Surface Lot,parking,30.304793,-97.73757,Simulated
+SIM-0069,Hyde Park Business Park,commercial_zone,30.309684,-97.736347,Simulated
+SIM-0070,UT Campus Galleria,mall,30.291291,-97.737146,Simulated
+SIM-0071,UT Campus Surface Lot,parking,30.288703,-97.736666,Simulated
+SIM-0072,UT Campus Parking Garage,parking,30.28661,-97.73297,Simulated
+SIM-0073,UT Campus Parking Garage,parking,30.281875,-97.734719,Simulated
+SIM-0074,UT Campus Surface Lot,parking,30.285411,-97.735544,Simulated
+SIM-0075,UT Campus Retail Corridor,commercial_zone,30.285242,-97.733185,Simulated
+SIM-0076,UT Campus Retail Corridor,commercial_zone,30.2849,-97.735976,Simulated
+SIM-0077,UT Campus Parking Garage,parking,30.291091,-97.728658,Simulated
+SIM-0078,UT Campus Commercial District,commercial_zone,30.285749,-97.736084,Simulated
+SIM-0079,UT Campus Retail Corridor,commercial_zone,30.282453,-97.731003,Simulated
+SIM-0080,UT Campus Park & Ride,parking,30.285956,-97.738636,Simulated
+SIM-0081,UT Campus Farmers Market,marketplace,30.282457,-97.735326,Simulated
+SIM-0082,Mueller Business Park,commercial_zone,30.297357,-97.704269,Simulated
+SIM-0083,Mueller Business Park,commercial_zone,30.298336,-97.700174,Simulated
+SIM-0084,Mueller Surface Lot,parking,30.298388,-97.70323,Simulated
+SIM-0085,Mueller Surface Lot,parking,30.294135,-97.703147,Simulated
+SIM-0086,Mueller Parking Garage,parking,30.2999,-97.704854,Simulated
+SIM-0087,Mueller Park & Ride,parking,30.295684,-97.70487,Simulated
+SIM-0088,Mueller Farmers Market,marketplace,30.301811,-97.700939,Simulated
+SIM-0089,Mueller Commercial District,commercial_zone,30.301837,-97.702859,Simulated
+SIM-0090,Mueller Business Park,commercial_zone,30.298146,-97.705813,Simulated
+SIM-0091,Mueller Galleria,mall,30.295408,-97.701966,Simulated
+SIM-0092,Mueller Park & Ride,parking,30.300577,-97.702048,Simulated
+SIM-0093,East Riverside Park & Ride,parking,30.234542,-97.730174,Simulated
+SIM-0094,East Riverside Public Market,marketplace,30.23686,-97.726071,Simulated
+SIM-0095,East Riverside Retail Plaza,mall,30.23577,-97.729915,Simulated
+SIM-0096,East Riverside Commercial District,commercial_zone,30.236523,-97.729189,Simulated
+SIM-0097,East Riverside Retail Corridor,commercial_zone,30.232959,-97.729209,Simulated
+SIM-0098,East Riverside Shopping Center,mall,30.238911,-97.725798,Simulated
+SIM-0099,East Riverside Public Market,marketplace,30.2393,-97.734112,Simulated
+SIM-0100,East Riverside Park & Ride,parking,30.23881,-97.727799,Simulated
+SIM-0101,East Riverside Business Park,commercial_zone,30.240351,-97.729395,Simulated
+SIM-0102,North Loop Park & Ride,parking,30.313101,-97.725384,Simulated
+SIM-0103,North Loop Surface Lot,parking,30.315843,-97.7224,Simulated
+SIM-0104,North Loop Surface Lot,parking,30.318259,-97.726933,Simulated
+SIM-0105,North Loop Market,marketplace,30.315445,-97.722805,Simulated
+SIM-0106,North Loop Public Market,marketplace,30.316885,-97.722811,Simulated
+SIM-0107,North Loop Parking Garage,parking,30.320121,-97.725533,Simulated
+SIM-0108,North Loop Commercial District,commercial_zone,30.313993,-97.72472,Simulated
+SIM-0109,North Loop Business Park,commercial_zone,30.311475,-97.728254,Simulated
+SIM-0110,North Loop Retail Corridor,commercial_zone,30.315967,-97.723637,Simulated
+SIM-0111,Brentwood Park & Ride,parking,30.314918,-97.739859,Simulated
+SIM-0112,Brentwood Surface Lot,parking,30.321011,-97.738175,Simulated
+SIM-0113,Brentwood Business Park,commercial_zone,30.320304,-97.738024,Simulated
+SIM-0114,Brentwood Public Market,marketplace,30.321166,-97.741832,Simulated
+SIM-0115,Brentwood Shopping Center,mall,30.321805,-97.741024,Simulated
+SIM-0116,Brentwood Commercial District,commercial_zone,30.319415,-97.740306,Simulated
+SIM-0117,Brentwood Commercial District,commercial_zone,30.317148,-97.743854,Simulated
+SIM-0118,Brentwood Retail Plaza,mall,30.318508,-97.738051,Simulated
+SIM-0119,Brentwood Retail Plaza,mall,30.322396,-97.736548,Simulated
+SIM-0120,Holly Parking Garage,parking,30.255978,-97.72576,Simulated
+SIM-0121,Holly Shopping Center,mall,30.251692,-97.729849,Simulated
+SIM-0122,Holly Parking Garage,parking,30.254768,-97.721526,Simulated
+SIM-0123,Holly Commercial District,commercial_zone,30.253864,-97.728705,Simulated
+SIM-0124,Holly Market,marketplace,30.248972,-97.723586,Simulated
+SIM-0125,Holly Surface Lot,parking,30.251825,-97.728781,Simulated
+SIM-0126,Holly Galleria,mall,30.252584,-97.725145,Simulated
+SIM-0127,Govalle Market,marketplace,30.259246,-97.70784,Simulated
+SIM-0128,Govalle Commercial District,commercial_zone,30.259271,-97.701102,Simulated
+SIM-0129,Govalle Commercial District,commercial_zone,30.260767,-97.698927,Simulated
+SIM-0130,Govalle Parking Garage,parking,30.260153,-97.703584,Simulated
+SIM-0131,Govalle Parking Garage,parking,30.260733,-97.704067,Simulated
+SIM-0132,Govalle Park & Ride,parking,30.258167,-97.708133,Simulated
+SIM-0133,Govalle Surface Lot,parking,30.258991,-97.704762,Simulated
+SIM-0134,Windsor Park Surface Lot,parking,30.291883,-97.709096,Simulated
+SIM-0135,Windsor Park Galleria,mall,30.293374,-97.709518,Simulated
+SIM-0136,Windsor Park Shopping Center,mall,30.29634,-97.712969,Simulated
+SIM-0137,Windsor Park Business Park,commercial_zone,30.299715,-97.70942,Simulated
+SIM-0138,Windsor Park Farmers Market,marketplace,30.295278,-97.710148,Simulated
+SIM-0139,Windsor Park Retail Corridor,commercial_zone,30.292285,-97.708881,Simulated
+SIM-0140,Windsor Park Business Park,commercial_zone,30.295347,-97.708269,Simulated
+SIM-0141,St. Edwards Park & Ride,parking,30.22737,-97.75382,Simulated
+SIM-0142,St. Edwards Park & Ride,parking,30.230058,-97.759762,Simulated
+SIM-0143,St. Edwards Shopping Center,mall,30.224711,-97.751454,Simulated
+SIM-0144,St. Edwards Surface Lot,parking,30.226417,-97.758907,Simulated
+SIM-0145,St. Edwards Public Market,marketplace,30.233325,-97.753869,Simulated
+SIM-0146,St. Edwards Park & Ride,parking,30.229023,-97.759058,Simulated
+SIM-0147,St. Edwards Retail Corridor,commercial_zone,30.227811,-97.752944,Simulated
+SIM-0148,St. Edwards Retail Corridor,commercial_zone,30.22947,-97.75679,Simulated
+SIM-0149,St. Edwards Farmers Market,marketplace,30.225866,-97.757308,Simulated
+SIM-0150,Barton Hills Park & Ride,parking,30.253088,-97.781151,Simulated
+SIM-0151,Barton Hills Surface Lot,parking,30.250289,-97.779329,Simulated
+SIM-0152,Barton Hills Surface Lot,parking,30.24793,-97.781166,Simulated
+SIM-0153,Barton Hills Parking Garage,parking,30.246555,-97.778343,Simulated
+SIM-0154,Barton Hills Retail Corridor,commercial_zone,30.244733,-97.782045,Simulated
+SIM-0155,Barton Hills Surface Lot,parking,30.248182,-97.779356,Simulated
+SIM-0156,Barton Hills Retail Corridor,commercial_zone,30.24965,-97.779471,Simulated
+SIM-0157,Barton Hills Park & Ride,parking,30.251555,-97.778277,Simulated
+SIM-0158,Airport Blvd Retail Corridor,commercial_zone,30.235652,-97.709709,Simulated
+SIM-0159,Airport Blvd Public Market,marketplace,30.233342,-97.717684,Simulated
+SIM-0160,Airport Blvd Park & Ride,parking,30.233045,-97.715184,Simulated
+SIM-0161,Airport Blvd Business Park,commercial_zone,30.233316,-97.71266,Simulated
+SIM-0162,Airport Blvd Park & Ride,parking,30.234649,-97.716698,Simulated
+SIM-0163,Airport Blvd Surface Lot,parking,30.231814,-97.715177,Simulated
+SIM-0164,Airport Blvd Park & Ride,parking,30.233021,-97.714506,Simulated
+SIM-0165,Airport Blvd Business Park,commercial_zone,30.237745,-97.715657,Simulated
+SIM-0166,Airport Blvd Public Market,marketplace,30.229698,-97.718007,Simulated
+SIM-0167,Airport Blvd Farmers Market,marketplace,30.236572,-97.709807,Simulated
+SIM-0168,South Austin Retail Corridor,commercial_zone,30.31082,-97.665131,Simulated
+SIM-0169,North Austin Public Market,marketplace,30.237646,-97.705262,Simulated
+SIM-0170,South Austin Galleria,mall,30.204774,-97.823039,Simulated
+SIM-0171,North Austin Galleria,mall,30.27794,-97.662458,Simulated
+SIM-0172,South Austin Commercial District,commercial_zone,30.262315,-97.695074,Simulated
+SIM-0173,North Austin Park & Ride,parking,30.291092,-97.69365,Simulated
+SIM-0174,South Austin Public Market,marketplace,30.187394,-97.766641,Simulated
+SIM-0175,North Austin Park & Ride,parking,30.201856,-97.715198,Simulated
+SIM-0176,South Austin Galleria,mall,30.353091,-97.704297,Simulated
+SIM-0177,North Austin Retail Plaza,mall,30.189793,-97.790129,Simulated
+SIM-0178,South Austin Commercial District,commercial_zone,30.1809,-97.742513,Simulated
+SIM-0179,North Austin Business Park,commercial_zone,30.185921,-97.76177,Simulated
+SIM-0180,South Austin Public Market,marketplace,30.227532,-97.685027,Simulated
+SIM-0181,North Austin Park & Ride,parking,30.350669,-97.77918,Simulated
+SIM-0182,South Austin Retail Corridor,commercial_zone,30.234965,-97.679285,Simulated
+SIM-0183,North Austin Surface Lot,parking,30.196962,-97.771872,Simulated
+SIM-0184,South Austin Galleria,mall,30.379749,-97.779618,Simulated
+SIM-0185,North Austin Park & Ride,parking,30.207364,-97.732272,Simulated
+SIM-0186,South Austin Farmers Market,marketplace,30.299043,-97.763297,Simulated
+SIM-0187,North Austin Farmers Market,marketplace,30.279383,-97.807158,Simulated
+SIM-0188,South Austin Parking Garage,parking,30.220396,-97.826996,Simulated
+SIM-0189,North Austin Commercial District,commercial_zone,30.306908,-97.77164,Simulated
+SIM-0190,South Austin Park & Ride,parking,30.330393,-97.738054,Simulated
+SIM-0191,North Austin Park & Ride,parking,30.359399,-97.790033,Simulated
+SIM-0192,South Austin Park & Ride,parking,30.285908,-97.703806,Simulated
+SIM-0193,North Austin Business Park,commercial_zone,30.310688,-97.779105,Simulated
+SIM-0194,South Austin Parking Garage,parking,30.211088,-97.681367,Simulated
+SIM-0195,North Austin Parking Garage,parking,30.292298,-97.695364,Simulated
+SIM-0196,South Austin Galleria,mall,30.275251,-97.660901,Simulated
+SIM-0197,North Austin Retail Corridor,commercial_zone,30.342928,-97.676566,Simulated
+SIM-0198,South Austin Galleria,mall,30.292434,-97.812678,Simulated
+SIM-0199,North Austin Commercial District,commercial_zone,30.37107,-97.742836,Simulated
+SIM-0200,South Austin Parking Garage,parking,30.371955,-97.81249,Simulated
+SIM-0201,North Austin Parking Garage,parking,30.229213,-97.81886,Simulated
+SIM-0202,South Austin Commercial District,commercial_zone,30.242514,-97.821337,Simulated
+SIM-0203,North Austin Surface Lot,parking,30.256901,-97.81971,Simulated
+SIM-0204,South Austin Retail Corridor,commercial_zone,30.240414,-97.762999,Simulated
+SIM-0205,North Austin Parking Garage,parking,30.180332,-97.810948,Simulated
+SIM-0206,South Austin Market,marketplace,30.281633,-97.746785,Simulated
+SIM-0207,North Austin Parking Garage,parking,30.266265,-97.697301,Simulated

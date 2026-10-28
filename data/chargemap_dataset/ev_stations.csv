@@ -1,0 +1,43 @@
+station_id,name,operator,power_kw,stalls,lat,lon
+EV-001,ChargePoint — Brentwood,Tesla Supercharger,11,3,30.31584,-97.736248
+EV-002,EVgo — Airport Blvd,ChargePoint,350,8,30.235511,-97.716581
+EV-003,EVgo — Tarrytown,Blink,50,8,30.295111,-97.77767
+EV-004,Blink — South Congress,Blink,11,11,30.250475,-97.754794
+EV-005,EVgo — Brentwood,Blink,150,13,30.317276,-97.733887
+EV-006,EVgo — South Congress,ChargePoint,150,12,30.251129,-97.748173
+EV-007,Blink — Brentwood,Electrify America,7,9,30.318374,-97.742561
+EV-008,Electrify America — South Congress,Electrify America,50,12,30.248544,-97.754201
+EV-009,EVgo — Clarksville,Blink,350,7,30.278173,-97.760328
+EV-010,Blink — Zilker,ChargePoint,150,2,30.262486,-97.769882
+EV-011,Electrify America — Holly,Tesla Supercharger,50,8,30.255525,-97.733286
+EV-012,EVgo — UT Campus,Tesla Supercharger,50,9,30.283799,-97.726625
+EV-013,EVgo — UT Campus,EVgo,7,10,30.28356,-97.733286
+EV-014,Blink — Zilker,Electrify America,11,8,30.257605,-97.773312
+EV-015,Blink — Govalle,Electrify America,350,6,30.255467,-97.708597
+EV-016,Blink — East Riverside,Tesla Supercharger,22,8,30.236291,-97.729207
+EV-017,ChargePoint — Holly,ChargePoint,150,12,30.250352,-97.727815
+EV-018,Blink — Hyde Park,ChargePoint,22,12,30.303122,-97.732938
+EV-019,Tesla Supercharger — Clarksville,Tesla Supercharger,50,7,30.275606,-97.759116
+EV-020,Electrify America — Downtown,Blink,22,12,30.261909,-97.748086
+EV-021,Electrify America — Rainey Street,Tesla Supercharger,150,8,30.262197,-97.741281
+EV-022,ChargePoint — Rainey Street,EVgo,150,5,30.2532,-97.741195
+EV-023,EVgo — Zilker,Blink,7,13,30.259951,-97.773971
+EV-024,ChargePoint — North Loop,EVgo,7,11,30.315931,-97.724891
+EV-025,ChargePoint — Downtown,EVgo,11,6,30.267917,-97.742
+EV-026,Tesla Supercharger — East Austin,ChargePoint,11,15,30.269853,-97.724444
+EV-027,Electrify America — Mueller,ChargePoint,7,16,30.292493,-97.700824
+EV-028,Electrify America — Hyde Park,EVgo,150,9,30.306254,-97.728809
+EV-029,Blink — Barton Hills,Electrify America,350,6,30.246042,-97.79066
+EV-030,Electrify America — UT Campus,Blink,7,15,30.282452,-97.734804
+EV-031,Tesla Supercharger — East Austin,Tesla Supercharger,7,6,30.259857,-97.726873
+EV-032,Electrify America — East Riverside,ChargePoint,50,15,30.245072,-97.729349
+EV-033,EVgo — South Congress,Electrify America,11,14,30.24514,-97.753626
+EV-034,Tesla Supercharger — Austin,EVgo,350,5,30.345377,-97.774162
+EV-035,Blink — Austin,Blink,7,15,30.365389,-97.808145
+EV-036,EVgo — Austin,Electrify America,7,13,30.329247,-97.677136
+EV-037,Electrify America — Austin,Electrify America,7,16,30.314047,-97.758799
+EV-038,Tesla Supercharger — Austin,ChargePoint,22,10,30.235089,-97.810029
+EV-039,Electrify America — Austin,Blink,22,9,30.351334,-97.793389
+EV-040,ChargePoint — Austin,Tesla Supercharger,350,3,30.214409,-97.827178
+EV-041,Blink — Austin,Blink,7,12,30.276391,-97.716366
+EV-042,ChargePoint — Austin,EVgo,50,11,30.32586,-97.809359

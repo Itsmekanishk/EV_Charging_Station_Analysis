@@ -483,7 +483,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-VIEW_OPTIONS = ["◈ Opportunity map", "◉ Demand zones", "▤ Site shortlist", "⌘ Method & data"]
+VIEW_OPTIONS = ["◈ Opportunity map", "◉ Demand zones", "▤ Site shortlist", "▦ Dataset", "⌘ Method & data"]
 active_view = st.segmented_control(
     "Dashboard view",
     options=VIEW_OPTIONS,
@@ -732,7 +732,68 @@ def render_shortlist() -> None:
             st.caption(f"Weighted contribution: {total:.1f} of 100 potential points. Remaining score comes from relative normalisation.")
 
 # --------------------------------------------------------------------------- #
-# View 4 — Method & data
+# View 4 — Dataset
+# --------------------------------------------------------------------------- #
+
+def render_dataset() -> None:
+    manifest = meta.get("dataset_manifest", {})
+    section_head(
+        "Teacher-ready evidence",
+        "Dataset saved before prediction",
+        "These are the exact raw layers written to disk before DBSCAN clustering and opportunity scoring. Use the previews or download the CSV files for review.",
+    )
+    saved_at = manifest.get("created_at", meta.get("loaded_at", ""))
+    dataset_dir = meta.get("dataset_dir", "data/chargemap_dataset")
+    st.success(f"Dataset snapshot ready · {saved_at} · stored in `{dataset_dir}`")
+
+    frames = {
+        "Commercial POIs": pois,
+        "Major roads": roads,
+        "Existing chargers": ev_stations,
+        "Demographic grid": grid,
+    }
+    summary = pd.DataFrame(
+        {
+            "Layer": list(frames),
+            "Rows": [len(frame) for frame in frames.values()],
+            "Columns": [len(frame.drop(columns=["geometry"], errors="ignore").columns) for frame in frames.values()],
+            "Saved file": [manifest.get("files", {}).get(key, f"{key.lower().replace(' ', '_')}.csv") for key in ("pois", "roads", "ev_stations", "demographic_grid")],
+        }
+    )
+    st.dataframe(summary, width="stretch", hide_index=True)
+
+    preview_column, download_column = st.columns([1.7, 1.0], gap="large")
+    with preview_column:
+        selected_layer = st.selectbox("Preview layer", options=list(frames), label_visibility="collapsed")
+        preview = frames[selected_layer].drop(columns=["geometry"], errors="ignore")
+        st.dataframe(preview.head(100), width="stretch", height=370, hide_index=True)
+        st.caption(f"Showing the first {min(100, len(preview))} of {len(preview):,} rows.")
+    with download_column:
+        st.markdown("#### Download raw layers")
+        for label, frame in frames.items():
+            file_key = {
+                "Commercial POIs": "pois",
+                "Major roads": "roads",
+                "Existing chargers": "ev_stations",
+                "Demographic grid": "demographic_grid",
+            }[label]
+            csv_data = frame.drop(columns=["geometry"], errors="ignore").to_csv(index=False)
+            st.download_button(
+                f"↓ {label} CSV",
+                data=csv_data,
+                file_name=f"{file_key}.csv",
+                mime="text/csv",
+                width="stretch",
+                key=f"download_{file_key}",
+            )
+        st.markdown(
+            '<div class="cm-panel"><h4>Reproducibility note</h4>'
+            '<p>The snapshot is regenerated on each data load. The manifest records the source, timestamp, row counts, and the order in which the model consumes the files.</p></div>',
+            unsafe_allow_html=True,
+        )
+
+# --------------------------------------------------------------------------- #
+# View 5 — Method & data
 # --------------------------------------------------------------------------- #
 
 def render_method() -> None:
@@ -843,6 +904,8 @@ elif active_view == VIEW_OPTIONS[1]:
     render_demand()
 elif active_view == VIEW_OPTIONS[2]:
     render_shortlist()
+elif active_view == VIEW_OPTIONS[3]:
+    render_dataset()
 else:
     render_method()
 
